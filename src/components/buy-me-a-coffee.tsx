@@ -310,7 +310,7 @@ export function BuyMeCoffeeButton() {
             initial={{ opacity: 0, y: 50 }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: 50 }}
-            className="fixed bottom-4 right-4 bg-black text-white p-4 rounded-lg shadow-lg"
+            className="fixed bottom-4 right-4 bg-black text-white p-4 rounded-lg shadow-lg z-50"
           >
             {t.buyMeCoffee.thankYou}
           </motion.div>
