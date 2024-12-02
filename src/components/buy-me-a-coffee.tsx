@@ -39,9 +39,9 @@ export function BuyMeCoffeeButton() {
   const [showCustomInput, setShowCustomInput] = useState(false);
 
   const addresses: Address[] = [
-    { coin: "BTC", address: "1BvBMSEYstWetqTFn5Au4m4GFg7xJaNVN2" },
-    { coin: "ETH", address: "0x742d35Cc6634C0532925a3b844Bc454e4438f44e" },
-    { coin: "SOL", address: "7owCBKWsLWTzJrwCsCPMdoFk6hHM5pP8qe2QWrZsUKrN" },
+    { coin: "BTC", address: "bc1q545wg6n8ccwmcqcxh2msk68ncfme76vs3rkx7k" },
+    { coin: "ETH", address: "0x06051210F46c786E5DB199a85068a2F249C08dbA" },
+    { coin: "SOL", address: "bc1qyyervejpxctdzrjjrsl6lxg2wpqh5n93v5k0kz" },
   ];
 
   useEffect(() => {
