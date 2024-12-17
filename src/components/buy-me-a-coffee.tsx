@@ -41,7 +41,7 @@ export function BuyMeCoffeeButton() {
   const addresses: Address[] = [
     { coin: "BTC", address: "bc1q545wg6n8ccwmcqcxh2msk68ncfme76vs3rkx7k" },
     { coin: "ETH", address: "0x06051210F46c786E5DB199a85068a2F249C08dbA" },
-    { coin: "SOL", address: "bc1qyyervejpxctdzrjjrsl6lxg2wpqh5n93v5k0kz" },
+    { coin: "SOL", address: "7q9SFKx1JbjD3458cY59zFyaWhAA2jmZqxYeAbeds6zM" },
   ];
 
   useEffect(() => {
